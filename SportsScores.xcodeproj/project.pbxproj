@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13099F4CCAB8E52E01F072B9 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C3D44E4A6C3D38CE69FF4D /* APIResponse.swift */; };
+		13880B60914807A67711DE93 /* GameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212694A06BB53E18F034C672 /* GameDetailView.swift */; };
+		17DD6D3CA0A61007F2DF8FC2 /* SportsScoresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF458B8B4585D69E60DA8FF /* SportsScoresApp.swift */; };
+		24E9A7F51F1197697F2E1C51 /* GameCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632979066D35CD865B3ACF6F /* GameCardView.swift */; };
+		2F42957E2A7D836B2B92C6E2 /* TeamLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8A7FEB9383A7243514E312 /* TeamLogoView.swift */; };
+		64B9A68C25A5959789617401 /* SportsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E8C6703B75E6BC40CDA56 /* SportsDataService.swift */; };
+		67AE8DCB8DE650FF5D655562 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08AB11969A6D49301493C976 /* Game.swift */; };
+		7265025E9BC274D64F6FCBE7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1553F0B0F5E36E849219F14B /* Extensions.swift */; };
+		7A8B3BE3212DC466A02E2559 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AC2E45CDECDCEC3DDC0015 /* ContentView.swift */; };
+		90E21C249ECD3C034FFC0CC1 /* SidebarFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F8A0C96786A99DA4C2C35 /* SidebarFilter.swift */; };
+		A40265BD5D3531D5A2DBC7CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636254F8AA33A59EC7DE9718 /* Assets.xcassets */; };
+		ABBC5533424F7295CFD38597 /* ScoreRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EB513964800502FBFAA775 /* ScoreRowView.swift */; };
+		B4010B138E30A62510C01960 /* ScoresViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEC309880AB2ADBB9696E41 /* ScoresViewModel.swift */; };
+		B6D69EB294E291DC424699E8 /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069ACD1D5C73DAD2A7D76927 /* Sport.swift */; };
+		DF9789A675CECF49F47F06DC /* SportSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C78E31A085C935B5D461FD /* SportSidebarView.swift */; };
+		FFD9518AA4208DF14E477BFE /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C3DE059D1D7719EDDE7BBE /* MenuBarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		069ACD1D5C73DAD2A7D76927 /* Sport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport.swift; sourceTree = "<group>"; };
+		08AB11969A6D49301493C976 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		1553F0B0F5E36E849219F14B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		16C78E31A085C935B5D461FD /* SportSidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportSidebarView.swift; sourceTree = "<group>"; };
+		1C3E87CD273A22E278284964 /* SportsScores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsScores.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		212694A06BB53E18F034C672 /* GameDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailView.swift; sourceTree = "<group>"; };
+		30C3DE059D1D7719EDDE7BBE /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		368E8C6703B75E6BC40CDA56 /* SportsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsDataService.swift; sourceTree = "<group>"; };
+		49AC2E45CDECDCEC3DDC0015 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		53EB513964800502FBFAA775 /* ScoreRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreRowView.swift; sourceTree = "<group>"; };
+		5B4F8A0C96786A99DA4C2C35 /* SidebarFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarFilter.swift; sourceTree = "<group>"; };
+		632979066D35CD865B3ACF6F /* GameCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCardView.swift; sourceTree = "<group>"; };
+		636254F8AA33A59EC7DE9718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CF458B8B4585D69E60DA8FF /* SportsScoresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsScoresApp.swift; sourceTree = "<group>"; };
+		B5476014192AD3AF84866C40 /* SportsScores.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SportsScores.entitlements; sourceTree = "<group>"; };
+		BDEC309880AB2ADBB9696E41 /* ScoresViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresViewModel.swift; sourceTree = "<group>"; };
+		C2C3D44E4A6C3D38CE69FF4D /* APIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		C4C62E2B942E86A9013AA448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EA8A7FEB9383A7243514E312 /* TeamLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamLogoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		54867646532A3C9485982939 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1553F0B0F5E36E849219F14B /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5C964A0DD2A0F964971A44B5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				368E8C6703B75E6BC40CDA56 /* SportsDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		75CA8C28B9D39AAE47A61FBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C3E87CD273A22E278284964 /* SportsScores.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93F89AD5194F005298C2DA73 /* SportsScores */ = {
+			isa = PBXGroup;
+			children = (
+				636254F8AA33A59EC7DE9718 /* Assets.xcassets */,
+				C4C62E2B942E86A9013AA448 /* Info.plist */,
+				B5476014192AD3AF84866C40 /* SportsScores.entitlements */,
+				9CF458B8B4585D69E60DA8FF /* SportsScoresApp.swift */,
+				F1FF975028D1D628A08F6E2C /* Models */,
+				5C964A0DD2A0F964971A44B5 /* Services */,
+				54867646532A3C9485982939 /* Utilities */,
+				9F98C5D1BD0977A262C48E87 /* ViewModels */,
+				B999BF77AA5A87F134EEB291 /* Views */,
+			);
+			path = SportsScores;
+			sourceTree = "<group>";
+		};
+		9A4C0977AF969C5D0F7D6BFB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EA8A7FEB9383A7243514E312 /* TeamLogoView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		9F98C5D1BD0977A262C48E87 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BDEC309880AB2ADBB9696E41 /* ScoresViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AE4F967DE2669DD50FD9529F /* MainWindow */ = {
+			isa = PBXGroup;
+			children = (
+				49AC2E45CDECDCEC3DDC0015 /* ContentView.swift */,
+				632979066D35CD865B3ACF6F /* GameCardView.swift */,
+				212694A06BB53E18F034C672 /* GameDetailView.swift */,
+				16C78E31A085C935B5D461FD /* SportSidebarView.swift */,
+			);
+			path = MainWindow;
+			sourceTree = "<group>";
+		};
+		B999BF77AA5A87F134EEB291 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE4F967DE2669DD50FD9529F /* MainWindow */,
+				F47D2AD7734F167B4DF8E46C /* MenuBar */,
+				9A4C0977AF969C5D0F7D6BFB /* Shared */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D0FD2DA0DFF7C8B54F8F3DD8 = {
+			isa = PBXGroup;
+			children = (
+				93F89AD5194F005298C2DA73 /* SportsScores */,
+				75CA8C28B9D39AAE47A61FBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1FF975028D1D628A08F6E2C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C2C3D44E4A6C3D38CE69FF4D /* APIResponse.swift */,
+				08AB11969A6D49301493C976 /* Game.swift */,
+				5B4F8A0C96786A99DA4C2C35 /* SidebarFilter.swift */,
+				069ACD1D5C73DAD2A7D76927 /* Sport.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F47D2AD7734F167B4DF8E46C /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				30C3DE059D1D7719EDDE7BBE /* MenuBarView.swift */,
+				53EB513964800502FBFAA775 /* ScoreRowView.swift */,
+			);
+			path = MenuBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9B008DFCA169D8E9BF1FAEE /* SportsScores */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0061743BD17149CB0D34A36 /* Build configuration list for PBXNativeTarget "SportsScores" */;
+			buildPhases = (
+				B01D79E877D1BEB9DB80AECC /* Sources */,
+				55D09A181A37C27B18CC72F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportsScores;
+			packageProductDependencies = (
+			);
+			productName = SportsScores;
+			productReference = 1C3E87CD273A22E278284964 /* SportsScores.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76E19A7D39715887A61C957C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A9B008DFCA169D8E9BF1FAEE = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 850FEF3B5DECC6C82CB83CC7 /* Build configuration list for PBXProject "SportsScores" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D0FD2DA0DFF7C8B54F8F3DD8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9B008DFCA169D8E9BF1FAEE /* SportsScores */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55D09A181A37C27B18CC72F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40265BD5D3531D5A2DBC7CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B01D79E877D1BEB9DB80AECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13099F4CCAB8E52E01F072B9 /* APIResponse.swift in Sources */,
+				7A8B3BE3212DC466A02E2559 /* ContentView.swift in Sources */,
+				7265025E9BC274D64F6FCBE7 /* Extensions.swift in Sources */,
+				67AE8DCB8DE650FF5D655562 /* Game.swift in Sources */,
+				24E9A7F51F1197697F2E1C51 /* GameCardView.swift in Sources */,
+				13880B60914807A67711DE93 /* GameDetailView.swift in Sources */,
+				FFD9518AA4208DF14E477BFE /* MenuBarView.swift in Sources */,
+				ABBC5533424F7295CFD38597 /* ScoreRowView.swift in Sources */,
+				B4010B138E30A62510C01960 /* ScoresViewModel.swift in Sources */,
+				90E21C249ECD3C034FFC0CC1 /* SidebarFilter.swift in Sources */,
+				B6D69EB294E291DC424699E8 /* Sport.swift in Sources */,
+				DF9789A675CECF49F47F06DC /* SportSidebarView.swift in Sources */,
+				64B9A68C25A5959789617401 /* SportsDataService.swift in Sources */,
+				17DD6D3CA0A61007F2DF8FC2 /* SportsScoresApp.swift in Sources */,
+				2F42957E2A7D836B2B92C6E2 /* TeamLogoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		200EAE98A9BDB90D4AD71EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SportsScores/SportsScores.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SportsScores/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sportsscores.app;
+				PRODUCT_NAME = SportsScores;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		80B76FF674A9FE6CA791743D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SportsScores/SportsScores.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SportsScores/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sportsscores.app;
+				PRODUCT_NAME = SportsScores;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ED5B7EE6FD35E8813B2D5FD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		F8CBC79BCC4F3DFCD771828E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		850FEF3B5DECC6C82CB83CC7 /* Build configuration list for PBXProject "SportsScores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8CBC79BCC4F3DFCD771828E /* Debug */,
+				ED5B7EE6FD35E8813B2D5FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F0061743BD17149CB0D34A36 /* Build configuration list for PBXNativeTarget "SportsScores" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B76FF674A9FE6CA791743D /* Debug */,
+				200EAE98A9BDB90D4AD71EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76E19A7D39715887A61C957C /* Project object */;
+}
